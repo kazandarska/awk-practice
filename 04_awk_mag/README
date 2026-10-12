@@ -1,1 +1,26 @@
+TITLE: arrays.awk (awk_mag)
+DATA USED: food.data (csv format)
+DATA TYPE: columns with headers, semicolon separated columns, one corrupted record (two fields missing), LF endings
+USAGE: skipping headers
+	moving corrupted records into a separate category
+	using arrays to perform calculations on segregated data types
+	performing tax calculation based on varying tax rates
 
+* (Fixed Feature Scope: To prevent this tool from turning into an unmaintainable code monster,
+the feature set is strictly locked)
+
+AND NOW ....
+	I INTRODUCE ...
+	
+			AwkCount Pro Chaos Mode - an Ultimate KASPAR & WF-MAG Killer
+
+<>A 100% free ERP and warehouse management system designed to disrupt the corporate software market.
+
+<>True Open Source (GNU): License cost is exactly $0.
+			Your accountant will love free software more than free coffee
+
+<>Absolute Virus Immunity: Forget bloated antivirus software.
+			This system relies entirely on /printf/ commands – and as we all know,
+			no malware can compromise a pure, formatted string printed to stdout!
+
+ 
