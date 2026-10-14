@@ -2,7 +2,7 @@
 	
 	# getfield - extract fields in any order
 	# usage: ./getfield [field field field....] [file file file....]
-	# based on field by Aho, Weinberger and Kerninghan from AWK Programming Language 
+	# based on field by Aho, Weinberger and Kernighan from AWK Programming Language 
 	# tool update after minor improvements: handling various file types and arguments
 
 awk '
