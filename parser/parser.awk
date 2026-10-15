@@ -7,6 +7,7 @@
 	# usage - corrupted records and fields detection, sub-elements separation, summation of numbers 
 	# output - corrupted lines sent to the error file, sub-elements split, summed data sent to the statistics file   
 	BEGIN {
+		FS = "[\t]"
 		print "VALIDATION" > ("error.txt")
 		print "STATISTICS" > ("stat.txt")
 	}

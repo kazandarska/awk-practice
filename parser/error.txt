@@ -8,7 +8,7 @@ WARNING: line 6 field 3 string: eggs
 WARNING: line 6 field 4 string: ARE
 WARNING: line 6 field 5 string: THERE
 WARNING: line 6 field 6 string: IN
-Line 9 is corrupted: has 5 fields, instead of 6
+WARNING: line 9 field 1 string: grfv
 WARNING: line 13 field 2 string: TTYTT
 WARNING: line 13 field 5 string: ttt
 WARNING: line 13 field 6 string: yyyyyyy

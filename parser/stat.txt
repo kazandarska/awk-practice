@@ -1,7 +1,7 @@
 STATISTICS
-Sum of column 1 : 9234
-Sum of column 2 : 11364
-Sum of column 3 : 13819
-Sum of column 4 : 7043
-Sum of column 5 : 9135
-Sum of column 6 : 11645
+Sum of column 1 : 9143
+Sum of column 2 : 11434
+Sum of column 3 : 13809
+Sum of column 4 : 6992
+Sum of column 5 : 9125
+Sum of column 6 : 11706
