@@ -1,0 +1,29 @@
+VALIDATION
+WARNING: line 2 field 1 string: orange
+WARNING: line 3 field 4 string: pota
+WARNING: line 4 field 5 string: alala
+WARNING: line 6 field 1 string: how
+WARNING: line 6 field 2 string: many
+WARNING: line 6 field 3 string: eggs
+WARNING: line 6 field 4 string: ARE
+WARNING: line 6 field 5 string: THERE
+WARNING: line 6 field 6 string: IN
+Line 9 is corrupted: has 5 fields, instead of 6
+WARNING: line 13 field 2 string: TTYTT
+WARNING: line 13 field 5 string: ttt
+WARNING: line 13 field 6 string: yyyyyyy
+WARNING: line 14 field 6 string: orange,apple,egg
+Sub-elements found 3
+orange
+apple
+egg
+WARNING: line 17 field 1 string: jam,m
+Sub-elements found 2
+jam
+m
+WARNING: line 17 field 2 string: em,xx,j
+Sub-elements found 3
+em
+xx
+j
+Line 20 is corrupted: has 0 fields, instead of 6
