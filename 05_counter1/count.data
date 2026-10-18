@@ -1,0 +1,19 @@
+IP	ID	TTY	TIME	DATE	AGE	STATUS	NAME	PRICE	TYPE
+1.01	34	0	23:15	15-02	2	none	duck	56.00	none
+1.02	45	1	11:30	20-01	1	active	pat	34.15	seller
+2.06	67	1	04:49	05-06	3	closed	jan	4.02	buyer
+3.07	34	0	01:00	16-07	2	none	duck	100.07	none
+1.05	23	1	03:43	26-01	4	active	senna	00.00	seller
+2.05	40	0	06:00	30-04	2	closed	dern	29.67	buyer
+3.09	56	1	14:07	12-09	2	active	bob	49.78	seller
+1.07	34	0	12:00	18-03	1	none	duck	00.00	none
+6.03	12	1	16:09	22-12	2	active	senna	2.18	seller
+4.90	18	1	16:10	13-12	2	active	senna	4.01	seller
+1.08	69	0	21:09	01-06	4	closed	jan	19.00	buyer
+3.07	34	0	01:00	16-07	2	none	duck	100.07	none
+1.05	23	1	03:43	26-01	4	active	senna	00.00	seller
+2.05	40	0	06:00	30-04	2	closed	dern	29.67	buyer
+3.09	56	1	14:07	12-09	2	active	bob	49.78	seller
+1.07	32	0	16:00	18-03	1	none	duck	00.08	none
+
+	
