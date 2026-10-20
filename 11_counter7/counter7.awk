@@ -24,7 +24,6 @@ NR > 1 {
 		n_qty = qty["none"]
 
 		loss_qty = s_qty - (b_qty + n_qty)
-		loss_value = s_value - (b_value + n_value)
 		
 		printf("LOSS ANALYSIS (IN UNITS):\n")
 		printf("Current loss:\t %-10d pcs.\n"), n_qty
