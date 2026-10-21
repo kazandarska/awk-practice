@@ -3,8 +3,9 @@
 		# input - count2.data
 		# output - creating a report for filtered data 
 BEGIN {
+	date = strftime("%d-%m-%Y")
 	printf("============================================\n")
-	print "LOSS SUMMARY REPORT:"; system("date +%Y-%m-%d")
+	print "Report date:", date
 	printf("============================================\n")
 }
 NR > 1 {
