@@ -6,7 +6,7 @@
 				
 BEGIN {				# fixed the date entry method (getline inst.of system)
 	"date +%Y-%m-%d" | getline report_date
-	close("date")
+	close("date +%Y-%m-%d")
 	printf("======================================================\n")
 	printf("Report date: %30s\n", report_date)
 	printf("======================================================\n")
