@@ -18,7 +18,7 @@
 	{	sub(/;$/, "")
 
 		if (NF != nfld) { 
-			empty_fields += (nfld - NF)
+			#empty_fields += (nfld - NF) 	# a concept that wasn't developed further:
 			printf("MISSING DATA: line: %2d has %2d fields instead of %2d\n", NR, NF, nfld)
 		}
 	}
