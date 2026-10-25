@@ -1,0 +1,30 @@
+	# conference part2.awk
+		# TC linear (sequential loops), SC linear (not nested loops)  
+
+	# The program processes files with semicolon-separated columns: 
+		# Detects and removes redundant semicolons to ensure an accurate column count.
+		# Identifies the correct number of fields based on a reference record (the header).
+		# Reports the exact line numbers and the number of missing fields for each corrupted record.
+	
+	# The BEGIN BLOCK automatically prints the current system date.
+	
+	# The MAIN BLOCK: The script processes a 4-column data file 
+		# Column 1: First Name, Column 2: Age, Column 3: Gender, Column 4: Country of Origin 
+		# Using case-sensitive text analysis, the main block performs the following actions:
+			# Segments and counts records dynamically based on the gender column.
+			# Prepends the appropriate title (`Mrs.` for female and `Mr.` for male records).
+			# Calculates the average age independently for both female and male groups.
+			# Tracks and counts the total number of underage individuals across the dataset.
+	
+	# The END BLOCK: 
+			# Iterates through collected data using a custom `for (key in array)` loop 
+				#to generate structured statistics.
+			# Overrides standard dates, permitting custom backdating configurations.
+			# Dynamically detects grammar counts and enforces the correct singular or plural forms 
+				# for printed nouns.
+	
+	# The script is based on the following:
+			# functions: tolower(), toupper(), close()
+			# counters and arrays
+			# statements: getline, printf
+			# pipe to a shell command: sort 
