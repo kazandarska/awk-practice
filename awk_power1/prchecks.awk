@@ -2,7 +2,7 @@
 	# prchecks - print formatted checks
 		# by Aho, Weinberger, Kernighan from "AWK Programming Language" [ch.3/p.75]
 	# input: number \t amount \t payee
-	# output: eight lines of text for oreorinted checks form
+	# output: eight lines of text for preprinted checks form
 
 BEGIN {
 	FS = "\t"
