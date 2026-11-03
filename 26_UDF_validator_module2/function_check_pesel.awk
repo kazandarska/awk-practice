@@ -41,7 +41,7 @@
 	
 	NR > 1 {
 			for ( i = 1; i <= NF; i++) {
-				# if ($i ~ /^[0-9]{11}$/) { 	--> check only 11-digit format using weighted mod 10 
+				# if ($i !~ /^[0-9]{11}$/) { 	--> check only 11-digit format using weighted mod 10 
 					# continue 
 				# }
 				if ($i ~ /^[a-zA-Z]$/) {		# --> check all non-alphabetic characters
